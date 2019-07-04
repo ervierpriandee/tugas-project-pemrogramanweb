@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUEST BOOK</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<style>
+      body{
+        background-image: url(rawks.jpg);
+        background-size: 100%;
+      }
+    </style>
+
+<body background="rawks.jpg">
+ 
+   <div class="container">		
+   <div align="center"><strong><font color="black" size="20" face="snap itc">FORM PEMBAYARAN </font></strong></div>
+<form action="proses.php" method="post" enctype="multipart/form-data">
+<fieldset>
+
+  <div class="form-group">
+   <pre> <label for="nama" ><font color="black">Nama Pelanggan:</font></label></pre>
+    <input type="text" name="nama" class="form-control" id="nama">
+  </div>
+  <div class="form-group">
+  
+  <pre><label for="alamat"><font color="black">Nama Barang :</font></label></pre>
+    <input type="text" name="nama_barang" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+  <pre>  <label for="alamat"><font color="black">Jumlah :</font></label></pre>
+    <input type="text" name="jumlah" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+   <pre> <label for="alamat"><font color="black">Harga Satuan :</font></label></pre>
+    <input type="text" name="harga" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+  <pre>  <label for="alamat"><font color="black">Bukti Transaksi :</font></label></pre>
+    <input type="file" name="file">
+  </div>
+  <br>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+  
+</form>
+</fieldset>
+
+   </div>
+ 
+</body>
+</html>
